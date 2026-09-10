@@ -1,0 +1,102 @@
+.home{
+    background-color:lightgray;
+}
+
+.water{
+    background-color:lightseagreen;
+}
+.grass{
+    background-color:darkseagreen;
+}
+nav {
+    height: 95px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size:30px;
+
+
+
+}
+nav div.active-nav a{
+    font-style:italic;
+    color:lightgray;
+
+}
+
+nav div.active-nav-b a{
+    font-style:italic;
+    color:lightseagreen;
+
+}
+
+nav div.active-nav-c a{
+    font-style:italic;
+    color:darkseagreen;
+
+}
+.wrapper{
+    max-width:1664px;
+    margin:0 auto;
+    height: 1000px;
+    align-items: center;
+}
+
+
+header {
+    font: 24pt helvetica neue;
+   text-align: center;
+}
+
+.rowlet {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.oshawott {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+
+}
+.selection{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size:30px;
+    gap: 400px;
+
+}
+.pokecontent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+ol{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+footer {
+    margin-top: 60px;
+    text-align: center;
+}
